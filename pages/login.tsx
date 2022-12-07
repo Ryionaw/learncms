@@ -6,7 +6,7 @@ import { FormContainer, TextFieldElement } from "react-hook-form-mui";
 import { Button, Stack } from "@mui/material";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import nookies, { setCookie } from "nookies";
+import { setCookie } from "nookies";
 
 type FormProps = {
   username: string;
